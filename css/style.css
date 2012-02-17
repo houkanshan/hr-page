@@ -192,7 +192,8 @@ button {
 }
 
 
-button.empty, input.empty, select.empty, textarea.empty, select.empty{
+input.empty, select.empty, textarea.empty, select.empty{
+    margin-left: 100px;
     border: 1px solid red;
     box-shadow: 0 0 3px red;
 }
