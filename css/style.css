@@ -1,0 +1,247 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration:none;
+}
+/* clear */
+html body div.clear,
+html body span.clear
+{
+     background: none;
+     border: 0;
+     clear: both;
+     display: block;
+     float: none;
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}
+
+/* style */
+body {
+    background-color: white;
+    font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif;
+    color: rgb(88, 89, 91);
+    padding-top: 6px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+
+/*teams*/
+#teams {
+    position: fixed;
+    top: 221px;
+    left:0px;
+}
+
+
+#teams li>a,
+#teams h2{
+    display: block;
+    width: 150px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #ffa900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#teams h2{
+    color:white;
+    background-color: rgb(204,204,204);
+}
+#teams li>a:hover,
+#teams li>a.hover{
+    background: #ffa900;
+    color: white;
+}
+
+
+#teams li p{
+    font-size: 12px;
+    padding:5px 0 5px 30px;
+    width: 150px;
+}
+ 
+/* container */
+#container {
+    float: left;
+    width: 400px;
+    background-color: white;
+    margin-right: 20px;
+}
+/*
+#title {
+    margin-bottom: 20px;
+}
+
+#title h1 {
+    font-size: 50px;
+    color: black;
+}
+
+*/
+
+#form .section {
+    /*border-top: 2px solid #aaaaaa;*/
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form .section h2 {
+    font-size: 24px;
+    color: #ffa900;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(204,204,204);
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+
+#form .section p{
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+button, input, select, textarea{
+    font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif;
+    margin:0;
+}
+
+input, textarea {
+    width: 285px;
+    max-width:285px;
+    background: rgb(238,238,238);
+    border: 1px solid rgb(204,204,204);
+    margin-bottom: 7px;
+    margin-left: 100px;
+}
+
+select {
+    margin-bottom: 7px;
+    margin-left: 100px;
+    width: 302px;
+    max-width:302px;
+    background: rgb(238,238,238);
+    border: 1px solid rgb(204,204,204);
+}
+
+input[type="text"], textarea{
+    font-size: 12px;
+    padding: 5px 7px;
+    color: rgb(102,102,102);
+}
+
+input[type="text"]:focus, textarea:focus{
+    background: white;
+}
+
+textarea{
+    overflow: auto;
+    vertical-align: text-top;
+}
+
+#form {
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    height: 26px;
+    overflow: hidden;
+    background: #ffa900;
+    color:white;
+    padding: 0 9px;
+    border: 0px;
+    position: absolute;
+    right:0px;
+}
+
+
+button.empty, input.empty, select.empty, textarea.empty, select.empty{
+    border: 1px solid red;
+    box-shadow: 0 0 3px red;
+}
+
+
+/* right sidebar */
+#sidebar_r {
+    float: left;
+    width: 540px;
+}
+
+ul#photoColList{
+    list-style: none;
+    display: block;
+}
+
+.itm{
+    float: left;
+    overflow: hidden;
+    height:180px;
+    width: 180px;
+    position: relative;
+}
+
+.itm img {
+    position: absolute;
+    top:0px;
+    left:0;
+    /*opacity: 0;*/
+    /*height: 180px;*/
+    /*width: 180px;*/
+}
+
+.itm img.wb{
+    /*opacity: 1;*/
+}
+
+
+/* footer */
+#footer {
+    margin-top: 6px;
+    background-color: #ffa900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 6px solid gray;
+}
+#footer p{
+    font-size: 12px;
+    color: black;
+    text-shadow:1px 1px 1px rgb(204,204,204);
+    text-align:center;
+}
