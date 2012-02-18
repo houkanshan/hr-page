@@ -1,5 +1,10 @@
 (function() {
     
+    // js平稳退化
+    $('#teams').css('position', 'fixed');
+    $('.step>p').after($('<div class="wb"></div>'));
+
+    // 项目组列表折叠
     $('#teams li p').css('display','none');
 
     $('#teams').on('click', 'li', function() {
@@ -20,6 +25,7 @@
 	    return false;
 	});
 
+	// 照片墙/表单交互效果
 	$('.itm').mouseenter(function(){
 		$(this).children('.wb').fadeOut('slow');
 		// $(this).prev().fadeIn('slow');
