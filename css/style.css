@@ -129,6 +129,10 @@ body {
     padding-left: 100px;
 }
 
+#form .section h2 span {
+    font-size: 14px;
+}
+
 #form .section p{
     font-size: 12px;
     margin-left: 100px;
@@ -172,9 +176,6 @@ textarea{
     vertical-align: text-top;
 }
 
-#form {
-    position: relative;
-}
 
 button {
     cursor: pointer;
@@ -189,8 +190,7 @@ button {
     color:white;
     padding: 0 28px;
     border: 0px;
-    position: absolute;
-    right:0px;
+    float: right;
 }
 
 
@@ -198,6 +198,20 @@ input.empty, select.empty, textarea.empty, select.empty{
     margin-left: 100px;
     border: 1px solid red;
     box-shadow: 0 0 3px red;
+}
+
+#contactUs{
+    margin-top: 20px;
+    margin-left:100px;
+    border-top: 1px solid rgb(204,204,204);
+    padding-top: 5px;
+    font-size:12px;
+}
+#contactUs p{
+    margin: 2px;
+}
+#contactUs img{
+    margin-bottom:-4px;
 }
 
 

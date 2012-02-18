@@ -27,7 +27,7 @@
 
 	// 照片墙/表单交互效果
 	$('.itm').mouseenter(function(){
-		$(this).children('.wb').fadeOut('slow');
+		$(this).children('.wb').fadeOut('fast');
 		// $(this).prev().fadeIn('slow');
 	}).mouseleave(function(){
 		$(this).children('.wb').fadeIn('slow');
@@ -59,7 +59,7 @@
 		var ret = true;
 		$('input, textarea, select').each(function(){
 			if (!$(this).val()){
-				if ($(this).data('id')<11 || $(this).data('id')>14){
+				if ($(this).data('id')<11 || $(this).data('id')>17){
 					$(this).addClass('empty');
 					ret = false;	
 				}
